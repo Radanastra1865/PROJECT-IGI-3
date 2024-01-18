@@ -92,3 +92,4 @@ printf("No of packets dropped : %d\n",count);
 
 
 terminal: ns prog2.tcl
+awk -f prog2 input_file(s)
